@@ -16,3 +16,15 @@ b = 10
 c = 20
 comparacion = a + b == c
 print(comparacion)
+#comparar usuarios
+contrasena_almacenada = "123456"
+contrasena_escrita = "123456"
+print(contrasena_almacenada == contrasena_escrita)
+
+contrasena_almacenada = "123456"
+contrasena_escrita = '123456'
+print(contrasena_almacenada == contrasena_escrita) #true
+
+contrasena_almacenada = "123456"
+contrasena_escrita = '''123456'''
+print(contrasena_almacenada == contrasena_escrita) #true
