@@ -1,4 +1,7 @@
 #pedir un dato un numero
 numero = input("dame un numero")
-resultado=int(numero)*2
+#multiplicando el numero por 2
+#convirtiendo el numero entero a float
+resultado=float(numero)*2
+#mostrando el resultado
 print(resultado)
